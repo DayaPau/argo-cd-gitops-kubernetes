@@ -3,6 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-gitops
+  annotations:
+    gitops.udla.edu.ec/prueba: "sincronizacion-automatica"
   labels:
     app: web-gitops
 
